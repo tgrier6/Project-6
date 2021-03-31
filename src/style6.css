@@ -1,0 +1,73 @@
+input {
+  text-align: center;
+}
+
+form {
+  display: inline;
+}
+
+.body {
+  padding-top: 20px;
+}
+
+.card-group {
+  padding-bottom: 20px;
+}
+
+.container {
+  background: linear-gradient(45deg, #2a79b0, #50b3df);
+  border-radius: 30px;
+  box-shadow: 9px 9px 5px rgba(0, 0, 0, 0.5);
+}
+
+.current-weather {
+  font-size: 35px;
+  line-height: 60px;
+  padding-bottom: 75px;
+  padding-top: 30px;
+  border-radius: 30px;
+  box-shadow: 9px 9px 5px rgba(0, 0, 0, 0.2);
+}
+
+.current-weather,
+.col-6,
+.card-title,
+.card-text {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #e5a521;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.card-title,
+.card-text {
+  font-size: 24px;
+}
+
+.current-weather img {
+  font-size: 300px;
+}
+
+.row {
+  max-height: 600px;
+  text-align: center;
+}
+
+.search {
+  padding-bottom: 70px;
+  padding-top: 20px;
+}
+
+.text-muted,
+hr {
+  color: #ecb419;
+}
+
+#city {
+  width: 1148px;
+}
+
+#forecast {
+  border: 0;
+  border-radius: 30px;
+  box-shadow: 9px 9px 5px rgba(0, 0, 0, 0.2);
+}
