@@ -6,6 +6,12 @@ form {
   display: inline;
 }
 
+p {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .body {
   padding-top: 20px;
 }
