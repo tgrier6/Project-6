@@ -34,16 +34,15 @@
     <div class="container">
       <form class="search">
         <form id="search-bar">
-        <input type="search" placeholder="Enter Your City Here" id="city" />
+        <input type="search" placeholder="Enter Your City Here" id="city-input" />
         <button type="submit" class="btn btn-outline-primary" id="btn">
           Search
         </button>
         <button
           id="current-location-button"
           type="button"
-          class="btn btn-outline-primary"
-        >
-          <i class="fas fa-location-arrow" id="arrow"></i>
+          class="btn btn-outline-primary">
+          <i class="fas fa-location-arrow" id="arrow-button"></i>
         </button>
       </form>
 
@@ -57,30 +56,22 @@
           </div>
           <div class="col-6">
             <br />
-            <h3 class="location" id="where">
-              <strong>Atlanta, GA</strong><br />
-            </h3>
-            <div id="Temperature"></div>
-            <span class="temp-here">
-              Temperature: <h2 id="temp">68˚</h2>
-              Humidity: <h2 id="humidity"></h2>
-              <h2 id="description"></h2>
-            </span><br>
-            <div
-              class="btn-group"
-              role="group"
-              aria-label="Basic outlined example"
-            >
-              <button type="button" class="btn btn-outline-primary">
-                Fahrenheit
-                <div id="Temp"></div>
-              </button>
-              <button type="button" class="btn btn-outline-primary">
-                Celsius
-              </button>
-            </div>
+            <ul>
+              <li>
+                <span id="city"></span>
+              </li>
+              <li>
+                Temperature: <span id="temperature"></span>˚F
+              </li>
+              <li>
+                Humidity: <span id="humidity"></span>%
+              </li>
+              <li>
+                Description: <span id="description"></span>
+              </li>
+            </ul>
             <br />
-            <div class="Date"><h4></h4></div>
+            <div id="date"></div>
           </div>
         </div>
       </div>
@@ -191,7 +182,6 @@
         </div>
       </div>
     </div>
-    <p><a href="https://github.com/tgrier6" target="_blank" rel="noopener noreferrer">Open-source code</a> by Tiara Grier</p>
 
     <script src="src/app6.js"></script>
   </body>
